@@ -20,10 +20,6 @@
         --c4:#323232; /*chat background*/
         --c6:#000000; /*black*/
     }
-    .page-around-room {
-        color: var(c2);
-        background-color: var(--background);
-    }
     body {
         background-color: var(--background)
     }
