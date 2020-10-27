@@ -8,8 +8,7 @@
 @updateURL    https://github.com/Perz1val-Hub/WebinarPG-Stylus/raw/main/theme.css
 @license      CC-BY-SA-4.0
 ==/UserStyle== */
-@-moz-document regexp("chrome-extension://.*"),
-regexp("moz-extension://.*") {
+@-moz-document regexp("webinarium.webinar.pg.edu.pl*") {
     :root {
         --accent:#c56fd8;
         --accent-light:#e588ab;
