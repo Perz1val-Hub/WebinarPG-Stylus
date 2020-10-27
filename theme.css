@@ -1,3 +1,12 @@
+/* ==UserStyle==
+@name         Webinar dark
+@version      1.0
+@description  Easy to Edit Theme for PG online classes
+@namespace    https://github.com/overdodactyl/Stylus-Dark
+@author       Perz1val
+@homepageURL  https://github.com/Perz1val-Hub/WebinarPG-Stylus
+@updateURL    https://github.com/Perz1val-Hub/WebinarPG-Stylus/raw/main/theme.css
+==/UserStyle== */
 @-moz-document regexp("chrome-extension://.*"),
 regexp("moz-extension://.*") {
     :root {
