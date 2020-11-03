@@ -1,0 +1,205 @@
+/* ==UserStyle==
+@name         Webinar-PG-Matrix
+@namespace    https://github.com/Perz1val-Hub/WebinarPG-Stylus
+@version      1.0.0
+@author       Perz1val
+@homepageURL  https://github.com/Perz1val-Hub/WebinarPG-Stylus
+==/UserStyle== */
+@-moz-document url-prefix("https://webinarium.webinar.pg.edu.pl/") {
+    :root {
+        --accent:#0f0;
+        --accent-light:#0f0;
+        --highlight:#0f0;
+        --active:#0f0;
+        --background:#000;
+        --tinted-bg1:#152415;
+        --tinted-bg2:#6a6a6a;
+        --c1:#fff; /*white*/
+        --c2:#fff; /*chat labels*/
+        --c3:#000; /*collapse button*/
+        --c4:#000; /*chat background*/
+        --c6:#0f0; /*black*/
+    }
+    body {
+        background-color: var(--background)
+    }
+    .popper-tooltip{
+        background-color:var(--tinted-bg1);
+    }
+    .bg-default {
+        background-color: var(--tinted-bg1) !important;
+        border-bottom: 2px solid var(--accent);
+    }
+    .bg-default h3 {
+        color: var(--accent) !important
+    }
+    .grid-content-desktop{
+        background: inherit;
+    }
+    .navbar-light .navbar-nav .nav-link{
+        color:var(--c2)
+    }
+    .sidebar-divider{
+        background:var(--tinted-bg2)
+    }
+    .nav-link:hover{
+        color:var(--accent)
+    }
+    .nav-dark.nav-tabs{
+        border-color:var(--tinted-bg2);
+    }
+    .resizeable-panel-handler-right{
+        background: var(--c3)
+    }
+    .streams {
+        background-color: var(--c4)
+    }
+    .chat-alert-info,
+    .chat-alert-info .svg {
+        color: var(--accent);
+        background: var(--c6)
+    }
+    .language-selector-item.language-selected, 
+    .translations, 
+    .switcher-track{
+        background: var(--tinted-bg2);
+    }
+    .options-header-wrap, 
+    .options-content{
+        border-color: var(--tinted-bg2);
+    }
+    .svg-stroke,
+    .resizeable-panel-settings-icon .svg-stroke {
+        color: var(--accent)
+    }
+    .resizeable-panel-line-horizontal {
+        background: var(--accent)
+    }
+    .chat-form-types-icon .svg-stroke {
+        color: var(--c1)
+    }
+    .resizeable-panel-settings-icon-selected .svg-stroke, 
+    .resizeable-panel-settings-icon:hover .svg-stroke, 
+    .popper-tooltip-settings-close:focus .svg-stroke, 
+    .popper-tooltip-settings-close:hover .svg-stroke{
+        color:var(--active) !important;
+    }
+    .chat-form-input {
+        color: var(--c1)
+    }
+    .list-filter-resizeable-input .list-filter-input {
+        background-color: var(--c4);
+        border: 1px solid var(--c2)
+    }
+    .list-filter-resizeable-input 
+    .list-filter-input:focus+ .list-filter-search-svg .svg, 
+    .list-filter:hover .list-filter-search-svg .svg{
+        stroke: var(--active)
+    }
+    .streams-video-main-speaking .streams-element-label{
+        background-color: var(--active);
+    }
+    .list-filter-resizeable-input .list-filter-search-svg .svg {
+        background-color: var(--c4);
+        stroke: var(--c2);
+    }
+    #branding .branding-main-background {
+        background: var(--accent)
+    }
+    #branding .branding-main-border {
+        border-color: var(--active)
+    }
+    .chat-alert-warning {
+        color: var(--accent)
+    }
+    #branding .branding-logo{
+        width: 80px;
+        background-image:none;
+        background-size:cover;
+        background-color:var(--accent);
+        -webkit-mask: url(https://pg.edu.pl/themes/custom/politechnika_gdanska/images/pg-logotyp-h.svg);
+
+    }
+    .resizeable-panel {
+        background: var(--tinted-bg1);
+    }
+    .resizeable-panel-dark .resizeable-panel {
+        background: var(--tinted-bg1);
+        color: var(--accent)
+    }
+    .resizeable-panel-dark .resizeable-panel .svg-stroke,
+    .resizeable-panel-dark .resizeable-panel-header {
+        color: var(--accent)
+    }
+    .resizeable-panel-header-icon {
+        color: var(--accent) !important;
+    }
+    .resizeable-panel-header-icon .svg,
+    .resizeable-panel-header {
+        color: var(--accent)
+    }
+    .sidebar-dark{
+        background:var(--tinted-bg1)
+    }
+    .sidebar-panel-av-pod {
+        background-color: var(--tinted-bg1);
+        border-bottom: 1px solid var(--c6)
+    }
+    .chat-message-list {
+        background: var(--c4)
+    }
+    .scrollbar-top-shadow {
+        background-image: linear-gradient(to bottom, var(--c4) 0, rgba(255, 255, 255, 0) 100%);
+    }
+    .scrollbar-bottom-shadow {
+        background-image: linear-gradient(to top, var(--c4) 0, rgba(255, 255, 255, 0) 100%);
+    }
+    .attendee,
+    .attendee-role {
+        color: var(--c2)
+    }
+    .attendee-icon .svg {
+        stroke: var(--c2)
+    }
+    .attendee-list-divider {
+        color: var(--accent-light)
+    }
+    .attendee-list-divider-line {
+        border-bottom: 1px solid var(--accent-light)
+    }
+    .chat-message-list-wrap,
+    .attendee-list-wrap,
+    chat-typing-container {
+        background-color: var(--c4)
+    }
+    chat-form ng-valid ng-touched ng-dirty {
+        background-color: var(--c4)
+    }
+    .chat-message {
+        border: 1px solid var(--c6);
+        color: var(--c2)
+    }
+    .chat-message-question {
+        border: 1px solid var(--highlight)
+    }
+    .chat-user {
+        color: var(--accent)
+    }
+    .chat-message-question .chat-user {
+        color: var(--highlight)
+    }
+    .chat-form-types-icon {
+        background: var(--c6);
+        border: 1px solid var(--c6)
+    }
+    .chat-form {
+        background: var(--tinted-bg1);
+        border-top: 1px solid var(--c6)
+    }
+    .chat-typing-container {
+        background: var(--tinted-bg1);
+    }
+    .chat {
+        background: var(--tinted-bg1);
+    }
+}
