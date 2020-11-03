@@ -7,15 +7,15 @@
 ==/UserStyle== */
 @-moz-document url-prefix("https://webinarium.webinar.pg.edu.pl/") {
     :root {
-        --accent:#c56fd8;
-        --accent-light:#e588ab;
+        --accent:#b93d5e;
+        --accent-light:#e58896;
         --highlight:#1dd8e5;
         --active:#0896e9;
-        --background:#0e091d;
-        --tinted-bg1:#251b23;
-        --tinted-bg2:#6e5167;
+        --background:#110e0f;
+        --tinted-bg1:#251b1d;
+        --tinted-bg2:#6e5159;
         --c1:#ffffff; /*white*/
-        --c2:#97c0c3; /*chat labels*/
+        --c2:#bbb; /*chat labels*/
         --c3:#7c7c7c; /*collapse button*/
         --c4:#323232; /*chat background*/
         --c6:#000000; /*black*/
