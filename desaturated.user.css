@@ -202,4 +202,7 @@
     .chat {
         background: var(--tinted-bg1);
     }
+    pre {
+        color: var(--c2);
+    }
 }
