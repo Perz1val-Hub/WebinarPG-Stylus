@@ -7,10 +7,10 @@
 ==/UserStyle== */
 @-moz-document url-prefix("https://webinarium.webinar.pg.edu.pl/") {
     .paint-container{
-        filter:invert(1) hue-rotate(180deg);
+        filter:invert(1);
     }
 
     .presentation-background-img{
-        filter:invert(1) hue-rotate(180deg);
+        filter:invert(1);
     }
 }
